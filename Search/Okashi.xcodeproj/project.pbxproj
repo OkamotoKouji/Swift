@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F04A253926B4FD1A00F8C247 /* OkashiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04A253826B4FD1A00F8C247 /* OkashiApp.swift */; };
+		F04A253B26B4FD1A00F8C247 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04A253A26B4FD1A00F8C247 /* ContentView.swift */; };
+		F04A253D26B4FD1D00F8C247 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F04A253C26B4FD1D00F8C247 /* Assets.xcassets */; };
+		F04A254026B4FD1D00F8C247 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F04A253F26B4FD1D00F8C247 /* Preview Assets.xcassets */; };
+		F04A254826B4FD4400F8C247 /* OkashiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04A254726B4FD4400F8C247 /* OkashiData.swift */; };
+		F04A254A26B50ED600F8C247 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04A254926B50ED600F8C247 /* SafariView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F04A253526B4FD1A00F8C247 /* Okashi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Okashi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F04A253826B4FD1A00F8C247 /* OkashiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkashiApp.swift; sourceTree = "<group>"; };
+		F04A253A26B4FD1A00F8C247 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F04A253C26B4FD1D00F8C247 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F04A253F26B4FD1D00F8C247 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F04A254126B4FD1D00F8C247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F04A254726B4FD4400F8C247 /* OkashiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkashiData.swift; sourceTree = "<group>"; };
+		F04A254926B50ED600F8C247 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F04A253226B4FD1A00F8C247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F04A252C26B4FD1A00F8C247 = {
+			isa = PBXGroup;
+			children = (
+				F04A253726B4FD1A00F8C247 /* Okashi */,
+				F04A253626B4FD1A00F8C247 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F04A253626B4FD1A00F8C247 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F04A253526B4FD1A00F8C247 /* Okashi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F04A253726B4FD1A00F8C247 /* Okashi */ = {
+			isa = PBXGroup;
+			children = (
+				F04A253826B4FD1A00F8C247 /* OkashiApp.swift */,
+				F04A253A26B4FD1A00F8C247 /* ContentView.swift */,
+				F04A254926B50ED600F8C247 /* SafariView.swift */,
+				F04A254726B4FD4400F8C247 /* OkashiData.swift */,
+				F04A253C26B4FD1D00F8C247 /* Assets.xcassets */,
+				F04A254126B4FD1D00F8C247 /* Info.plist */,
+				F04A253E26B4FD1D00F8C247 /* Preview Content */,
+			);
+			path = Okashi;
+			sourceTree = "<group>";
+		};
+		F04A253E26B4FD1D00F8C247 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F04A253F26B4FD1D00F8C247 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F04A253426B4FD1A00F8C247 /* Okashi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F04A254426B4FD1D00F8C247 /* Build configuration list for PBXNativeTarget "Okashi" */;
+			buildPhases = (
+				F04A253126B4FD1A00F8C247 /* Sources */,
+				F04A253226B4FD1A00F8C247 /* Frameworks */,
+				F04A253326B4FD1A00F8C247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Okashi;
+			productName = Okashi;
+			productReference = F04A253526B4FD1A00F8C247 /* Okashi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F04A252D26B4FD1A00F8C247 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					F04A253426B4FD1A00F8C247 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = F04A253026B4FD1A00F8C247 /* Build configuration list for PBXProject "Okashi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F04A252C26B4FD1A00F8C247;
+			productRefGroup = F04A253626B4FD1A00F8C247 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F04A253426B4FD1A00F8C247 /* Okashi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F04A253326B4FD1A00F8C247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04A254026B4FD1D00F8C247 /* Preview Assets.xcassets in Resources */,
+				F04A253D26B4FD1D00F8C247 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F04A253126B4FD1A00F8C247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04A254A26B50ED600F8C247 /* SafariView.swift in Sources */,
+				F04A253B26B4FD1A00F8C247 /* ContentView.swift in Sources */,
+				F04A254826B4FD4400F8C247 /* OkashiData.swift in Sources */,
+				F04A253926B4FD1A00F8C247 /* OkashiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F04A254226B4FD1D00F8C247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F04A254326B4FD1D00F8C247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F04A254526B4FD1D00F8C247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Okashi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Okashi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = okamoto.Okashi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F04A254626B4FD1D00F8C247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Okashi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Okashi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = okamoto.Okashi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F04A253026B4FD1A00F8C247 /* Build configuration list for PBXProject "Okashi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F04A254226B4FD1D00F8C247 /* Debug */,
+				F04A254326B4FD1D00F8C247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F04A254426B4FD1D00F8C247 /* Build configuration list for PBXNativeTarget "Okashi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F04A254526B4FD1D00F8C247 /* Debug */,
+				F04A254626B4FD1D00F8C247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F04A252D26B4FD1A00F8C247 /* Project object */;
+}
